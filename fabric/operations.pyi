@@ -6,6 +6,8 @@ from typing import Any, Optional
 from fabric.context_managers import quiet as quiet_manager, warn_only as warn_only_manager
 
 class _AttributeString(str):
+    def __init__(self, str: str) -> None:
+        self.return_code = ... # type: int
     @property
     def stdout(self): ...
 

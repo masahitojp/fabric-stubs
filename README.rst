@@ -1,21 +1,17 @@
-===========
-fabric-mypy
-===========
+============
+fabric-stubs
+============
 
 Introduction
 ------------
 
-This package contains the `MyPy <http://www.mypy-lang.org/>`_ type stubs for the `Fabric3 <https://pypi.python.org/pypi/Fabric3>`_ package.
+PEP 561 based Type information for the `Fabric3 <https://pypi.python.org/pypi/Fabric3>`_ package.
+
+Current Status
+--------------
 
 currently, only run(), local()
 
-Introduction
-------------
-
-git clone this project.
-You can check your code setting the ``MYPYPATH`` environment variable: ::
-
-  MYPYPATH=stubs/ mypy my_program.py
 
 Feedback
 --------

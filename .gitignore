@@ -3,3 +3,7 @@
 .dmypy.json
 dmypy.json
 
+build/
+dist/
+fabric3_stubs.egg-info/
+

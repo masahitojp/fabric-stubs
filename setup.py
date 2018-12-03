@@ -5,7 +5,7 @@ setup(
     version="0.0.1",
     packages=["fabric3-stubs"],
     package_data={
-        "fabric3-stubs": ["*.pyi"],
+        "fabric-stubs": ["*.pyi"],
     },
     install_requires=[
         "fabric3==1.14.post1",
